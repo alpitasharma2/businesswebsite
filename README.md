@@ -1,1 +1,1 @@
-A bussiness management website using HTML,CSS & BOOTSTRAP.
+A responsive bussiness management website using HTML,CSS & BOOTSTRAP.
