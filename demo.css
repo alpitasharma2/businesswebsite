@@ -1,0 +1,268 @@
+*
+{
+    margin=0;
+    padding=0px;
+}
+/*----Navigation bar---*/
+#nav-bar
+{
+    position:sticky;
+    top=0;
+    z-index=10;
+}
+.navbar-brand img
+{
+ height:40px;
+    padding-left:30px;
+}
+.navbar-nav li
+{
+padding:0 10px;   
+}
+.navbar-nav li a
+{
+float:right;
+    text-align:left;
+}
+#nav-bar ul li a:hover{
+  color: #008cff!important;  
+}
+.navbar{
+    background:rgba(205, 219, 80, 0.959); 
+}
+.navbar-toggler{
+  border:none!important;  
+}
+.nav-link{
+  color:#555!important;
+    font-weight:600;
+    font-size:16px;
+}
+/*--------Slider-----*/
+#slider
+{
+  width: 100%; 
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+/***------About------***/
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:rgb(0, 0, 0);
+}
+#about-content{
+ padding-top: 20px;   
+}
+.skills-bar p{
+margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar{
+   border-radius: 16px; 
+}
+.progress{
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+/***------Services-------***/
+#services
+{
+    background-image: linear-gradient(rgba(236, 238, 108, 0.8),rgba(175, 214, 102, 0.8)),url();
+    background-size:cover;
+    background-position: center;
+    color:#020202;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services
+{
+    text-align: center;
+    color:#000000;
+    padding-bottom: 10px; 
+}
+#services h1::after
+{
+    content:'';
+    background: #505050;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services{
+ margin-top: 40px;   
+}
+.icon{
+ font-size:40px;
+ margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;    
+}
+#services p
+{
+    font-size: 14px;
+    margin-top:20px;
+    color:rgb(0, 0, 0);
+}
+.services .col-md-3:hover{
+    background: #ffffff;
+    cursor:pointer;
+    transition:0.7s;    
+}
+/*-------------team members----*/
+#team
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:rgb(0, 0, 0);
+}
+h1
+{
+    text-align: center;
+    color: #555;
+    padding-bottom: 10px;
+}
+h1::after
+{
+content: '';
+    background: #000000;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic
+{
+    margin-top: 25px;
+}
+.profile-pic .img-box
+{
+    opacity: 1;
+    display:block;
+    position:relative;
+}
+.profile-pic .img-box img
+{
+    filter:grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+ filter:grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color:#00c3ff;
+}
+.profile-pic h3
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#team .fa
+{
+    height: 25px;
+    width: 25px;
+    color: #fffb00;
+    background: rgb(0, 0, 0);
+    padding: 4px;
+    border-radius:50%;
+}
+.img-box ul
+{
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.img-box ul li
+{
+    padding: 5px;
+    display: inline-block;
+}
+.img-box:hover ul
+{
+    opacity:1;
+}
+.img-box ul, .img-box ul li
+{
+    transition:0.5s;
+}
+/*--------Get in touch----*/
+#contact
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#777;
+}
+.contact-form
+{
+    padding: 15px;
+}
+.form-control
+{
+    border-radius: 0;
+    border:none;
+    
+}
+::placeholder
+{
+ color:#999;   
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+.conatact-info .fa
+{
+ margin: 10px;
+    color: navy;
+    font-weight: bold;
+}
+/*---------Footer-----------*/
+
+#footer
+{
+    background: rgb(19, 102, 150);
+    color: #fff;
+    padding:12px;
+}
+.fa-heart-o
+{
+   margin: 3px;
+    color:yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
